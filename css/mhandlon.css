@@ -1,0 +1,59 @@
+body { background-color: #fff; color: #2e3436; font-family: arial, helvetica, sans-serif; font-size: 12px; margin: 0 auto; width: 100%; }
+a { color: #2e3436; text-decoration: underline; }
+a:visited, a:hover, a:active { color: #2e3436; text-decoration: underline; outline: none; }
+h1,h2,h3 { font-weight: 100; font-family: "kulturista-web-1","kulturista-web-2", Sans-Serif; margin: 0; line-height: 1.5em;}
+h3 span.p { font-family: arial, helvetica, sans-serif; font-size: 12px; }
+body header { margin: 1em auto 0 auto; width: 1000px; border-bottom: 1px solid #2e3436; }
+body nav {  margin: 0 auto; width: 1000px; text-align: right; }
+body nav a { line-height: 1.5em; display: inline-block; padding: 0  0 0 1em ; text-decoration: none; }
+body nav a.current { text-decoration: underline; }
+body section { width: 1000px; margin: 0 auto;}
+body section aside { float: left; width: 175px; }
+body section aside a { font-family: monospace; text-decoration: none; display: block; line-height: 1.5em; white-space: nowrap; }
+body section article { margin-left: 200px;}
+body section article + article { margin-top: 2em; }
+body section article header { margin: 0 0 0 0; width: auto; border-bottom: none; font-family: monospace; font-size: 1.35em; line-height: 1.5em; }
+body section article header + section h3 { margin-top: 0.5em; }
+body section article section { width: auto; background-color: #F6F6F6; padding: 0.5em 0 0.1em 1em;}
+body section article section h3 { font-size: 1.10em; }
+body section article section dl,
+body section article section p { margin: 0.25em 0 1em 0.75em;}
+body section article section dl dt { font-weight: 600; }
+body section article section dl dd { margin: 0.25em 0 1em 1em; }
+body section article section pre { font-family: monospace; font-size: 1.12em; line-height: 1.5em; background-color: #FFF; padding: 0.5em; border-left: 0.5em solid #AAA; margin: 0 0 1em 0;}
+body footer { text-align : right; font-size: 75%; color: #AAA; clear: both; margin: 1em auto; padding 1em 0; width: 1000px; }
+body footer p { border-top: 1px solid #AAA; padding: 0.25em 0 0 0;}
+hr { border-style: solid; border-width: 1px 0px 0px 0px; border-color: #2e3436; }
+hr.soft { border-color: #AAA; }
+p { margin: 0; padding: 0; font-size: 100%; line-height: 1.5em; color: #3e4446;}
+p + p { margin-top: 0.5em; }
+p + h2 { margin-top: 1em; }
+.return { color: #aaa; font-style: italic; font-weight: 100;}
+.method { font-weight: 600; }
+.param { color: #fcaf3e; }
+.param em { color: #aaa; font-weight: 100; }
+.var { color: #fcaf3e; font-style: italic;}
+.class { color: #2e3436; font-weight: 600;}
+.string { color: #8ae234; }
+.comment { color: #AAA; font-style: italic; }
+.mono { font-family: monospace; }
+.wbg { background-color:#fff; }
+.rbg { background-color:#ef2929; }
+.ybg { background-color:#fce94f; }
+.gbg { background-color:#8ae234; }
+.obg { background-color:#fcaf3e; }
+.wfg { color:#fff; }
+.rfg { color:#ef2929; }
+.yfg { color:#fce94f; }
+.gfg { color:#8ae234; }
+.ofg { color:#fcaf3e; }
+.bullet { display: block; float: left; width: 0.50em; height: 0.50em; margin: 0.50em 0.25em 0.50em 0em; background-color: #AAA;}
+.clear { clear: both; }
+
+/* SVG overwrites */
+svg a { color: #FFF !important; }
+svg a:visited, svg a:hover, svg a:active { color: #FFF !important; }
+
+/* Raphael */
+#me { float: right; width: 512px; height: 512px; display: block; margin-top: 10px;}
+#desc { margin-right: 666px; padding-top: 4em;  }
