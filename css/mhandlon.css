@@ -21,7 +21,7 @@ body section article section p { margin: 0.25em 0 1em 0.75em;}
 body section article section dl dt { font-weight: 600; }
 body section article section dl dd { margin: 0.25em 0 1em 1em; }
 body section article section pre { font-family: monospace; font-size: 1.12em; line-height: 1.5em; background-color: #FFF; padding: 0.5em; border-left: 0.5em solid #AAA; margin: 0 0 1em 0;}
-body footer { text-align : right; font-size: 75%; color: #AAA; clear: both; margin: 1em auto; padding 1em 0; width: 1000px; }
+body footer { text-align : right; font-size: 75%; color: #AAA; clear: both; margin: 1em auto; padding: 1em 0; width: 1000px; }
 body footer p { border-top: 1px solid #AAA; padding: 0.25em 0 0 0;}
 hr { border-style: solid; border-width: 1px 0px 0px 0px; border-color: #2e3436; }
 hr.soft { border-color: #AAA; }
