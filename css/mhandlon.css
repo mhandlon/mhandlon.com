@@ -3,7 +3,7 @@ a { color: #2e3436; text-decoration: underline; }
 a:visited, a:hover, a:active { color: #2e3436; text-decoration: underline; outline: none; }
 h1,h2,h3 { font-weight: 100; font-family: "kulturista-web-1","kulturista-web-2", Sans-Serif; margin: 0; line-height: 1.5em;}
 h3 span.p { font-family: arial, helvetica, sans-serif; font-size: 12px; }
-body header { margin: 1em auto 0 auto; width: 1000px; border-bottom: 1px solid #2e3436; }
+body header { margin: 1em auto 0 auto; width: 1000px; border-bottom: 1px solid #2e3436; margin-bottom: 5px; }
 body nav {  margin: 0 auto; width: 1000px; text-align: right; }
 body nav a { line-height: 1.5em; display: inline-block; padding: 0  0 0 1em ; text-decoration: none; }
 body nav a.current { text-decoration: underline; }
