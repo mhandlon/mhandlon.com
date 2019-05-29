@@ -6,11 +6,12 @@ require([ "raphael", "jquery"], function (Raphael, $) {
     var offset = $('#me').position();
     console.log(offset);
 
+    var r = 5;
+
     for (i = 0, L = me.length; i < L; i++) {
-        var c = me[i].c.split("|"),
+        var c = me[i].c.split("|");
         //r = parseInt(c[0]) + parseInt(c[1]) + parseInt(c[2]);
         //r = r < 200 ? 7 : r < 350 ? 6 : 5;
-        r = 5;
         var rgb = "rgb(".concat(c[0], ",", c[1], ",", c[2], ")");
         //console.log(rgb);
         //console.log(me[i].x + " " + me[i].y + " " + me[i].c);
