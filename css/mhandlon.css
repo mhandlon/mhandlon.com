@@ -55,5 +55,5 @@ svg a { color: #FFF !important; }
 svg a:visited, svg a:hover, svg a:active { color: #FFF !important; }
 
 /* Raphael */
-#me { float: right; width: 512px; height: 512px; display: block; margin-top: 10px;}
-#desc { margin-right: 666px; padding-top: 4em;  }
+#me { float: right; width: 512px; height: 512px; display: block;}
+#desc { margin-right: 666px; padding-top: 4em; }

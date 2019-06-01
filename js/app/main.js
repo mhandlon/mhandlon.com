@@ -20,21 +20,18 @@ require([ "raphael", "jquery"], function (Raphael, $) {
             paper.circle(me[i].l, me[i].t, r)
                 .attr({"stroke-width": 0, "fill": rgb, "stroke": rgb})
                 .data({ox: me[i].l, oy: me[i].t})
-                .mouseover(function (ev) {
-                    console.log(ev);
-                    //console.log("(" + this.attr("cx") + ", " + this.attr("cy") + ") (" + l  + ", " + t + ")");
+                .mouseover(function(ev){
+                    //console.log(ev);
                     cx = Math.floor(Math.random() * (ev.pageX - offset.left - this.attr("cx")) * -6) + this.attr("cx");
                     cy = Math.floor(Math.random() * (ev.pageY - offset.top - this.attr("cy")) * -6) + this.attr("cy");
                     var dist = {
                         cx: cx,
                         cy: cy
                     }
-                    console.log("cx " + ev.pageX + " " + offset.left + " " + this.attr("cx") + " " + cx);
-                    console.log("cy " + ev.pageY + " " + offset.top + " " + this.attr("cy") + " " + cy);
-                    //console.log("dist");
-                    //console.log(dist);
+                    //console.log("x: " + ev.pageX + " " + offset.left + " " + this.attr("cx") + " " + cx);
+                    //console.log("y: " + ev.pageY + " " + offset.top + " " + this.attr("cy") + " " + cy);
                     this.stop().animate(dist, 1234, "elastic", function () {
-                        console.log("animate " + this.data("ox") + " " + this.data("oy"));
+                        //console.log("animate " + this.data("ox") + " " + this.data("oy"));
                         this.stop().animate({cx: this.data("ox"), cy: this.data("oy")}, 4321);
                     });
                 });
