@@ -4,9 +4,9 @@ require([ "raphael", "jquery"], function (Raphael, $) {
     $(document).ready(function () {
 
         var paper = Raphael($("#me")[0], 512, 512);
-        console.log(paper);
+        //console.log(paper);
         var offset = $('#me').position();
-        console.log(offset);
+        //console.log(offset);
         var r = 5;
 
         for (i = 0, L = me.length; i < L; i++) {
