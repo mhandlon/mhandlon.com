@@ -42,10 +42,13 @@
             <div class="clear"></div>
         </section>
         <footer>
-            <p>© 2014-2020 mhandlon.com</p>
+            <p>© 2014-<span id="cyear"></span> mhandlon.com</p>
         </footer>
         <script data-main="js/app" src="js/app/me.js"></script>
         <script data-main="js/app" src="js/vendor/require.js"></script>
+        <script>
+            document.getElementById("cyear").innerHTML = new Date().getFullYear();
+        </script>
         <script>
             var _gaq=[['_setAccount','UA-73545432-1'],['_trackPageview']];
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
